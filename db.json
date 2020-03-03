@@ -1,0 +1,136 @@
+{
+    "categories": [
+        {
+            "id":1,
+            "type": "action"
+        },
+        {
+            "id":2,
+            "type": "rpg"
+        },
+        {
+            "id":3,
+            "type": "adventure"
+        },
+        {
+            "id":4,
+            "type": "sport"
+        },
+        {
+            "id":5,
+            "type": "strategy"
+        }
+
+    ],
+    "products": [
+        {
+            "id": 2,
+            "name": "CALL OF DUTY",
+            "type": "Action",
+            "description": "Call of Duty is a first-person shooter video game franchise published by Activision.",
+            "picture": "https://upload.wikimedia.org/wikipedia/en/e/e9/CallofDutyModernWarfare%282019%29.jpg",
+            "price": 30,
+            "categorieID": 1
+        },
+        {
+            "id": 3,
+            "name": "CRYSIS",
+            "type": "Action",
+            "description": "Crysis is a first-person shooter video game published by Electronic Arts.",
+            "picture": "https://cdn.tutsplus.com/psd/uploads/legacy/psdtutsarticles/linkb_60vgamecovers/44.jpg",
+            "price": 50,
+            "categorieID": 1
+        },
+        {
+            "id": 3,
+            "name": "REMNANT",
+            "type": "Action",
+            "description": "Remnant is an action third person shooter video game developed by Gunfire Games.",
+            "picture": "https://pwimages-a.akamaihd.net/arc/72/50/72503de110c52eff71bf2c24d39effd71565667102.jpg",
+            "price": 12.99,
+            "categorieID": 1
+        },
+        {
+            "id": 3,
+            "name": "DOOM",
+            "type": "Action",
+            "description": "Doom is a video game series and media franchise created by John Carmack.",
+            "picture": "https://www.shortlist.com/media/images/2019/05/50-greatest-video-game-covers-166-1556729299-wujx-column-width-inline.jpg",
+            "price": 4.99,
+            "categorieID": 1
+        },
+        {
+            "id": 4,
+            "name": "TOMB RAIDER",
+            "type": "Adventure",
+            "description": "Lara Croft: Tomb Raider an adventure video game series created by Core Design.",
+            "picture": "https://images-na.ssl-images-amazon.com/images/I/91YJVEjO80L.jpg",
+            "price": 10,
+            "categorieID": 3
+        },
+        {
+            "id": 5,
+            "name": "JEDI",
+            "type": "Adventure",
+            "description": "Fallen Order is an action-adventure game developed by Electronic Arts.",
+            "picture": "https://images.g2a.com/newlayout/1080x1080/1x1x0/1d9f48606fdf/5dc3e96a46177c55a8517092",
+            "price": 99,
+            "categorieID": 3
+        },
+        {
+            "id": 6,
+            "name": "FIFA 20",
+            "type": "Sports",
+            "description": "FIFA 20 is a football simulation video game published by Electronic Arts.",
+            "picture": "https://cdn-products.eneba.com/resized-products/sML_vdsufY3usAWcnc8xTNnaB77_hc_nsRpza_rJFjw_390x400_1x-0.jpeg",
+            "price": 45,
+            "categorieID": 4
+        },
+        {
+            "id": 6,
+            "name": "NBA 2K20",
+            "type": "Sports",
+            "description": "NBA 2K20 is a basketball simulation video game developed by 2K Sports",
+            "picture": "https://cdn.vox-cdn.com/thumbor/9ijq1dBX2VBRYUsvd3AMPUXxk6g=/0x0:1519x1840/1200x0/filters:focal(0x0:1519x1840):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/18274749/NBA_2K20_Legend_Edition.jpg",
+            "price": 49.99,
+            "categorieID": 4
+        },
+        {
+            "id": 7,
+            "name": "WOW",
+            "type": "Rpg",
+            "description": "World of Warcraft is a online role-playing game (MMORPG) released in 2004 by Blizzard.",
+            "picture": "https://upload.wikimedia.org/wikipedia/sr/thumb/9/91/WoW_Box_Art1.jpg/220px-WoW_Box_Art1.jpg",
+            "price": 9.99,
+            "categorieID": 2
+        },
+        {
+            "id": 7,
+            "name": "Neverwinter Nights 2",
+            "type": "Rpg",
+            "description": "Neverwinter Nights is  role-playing video game",
+            "picture": "https://i.pinimg.com/originals/ab/31/0c/ab310cd38cc23ab9739bea2b84ce1a14.jpg",
+            "price": 5.99,
+            "categorieID": 2
+        },
+        {
+            "id": 8,
+            "name": "Might and Magic III",
+            "type": "Strategy",
+            "description": "Might and Magic III: is a turn-based strategy game developed by Jon Caneghem ",
+            "picture": "https://upload.wikimedia.org/wikipedia/en/9/9b/Homm3boxart.jpg",
+            "price": 2,
+            "categorieID": 5
+        },
+        {
+            "id": 8,
+            "name": "Dawn of War",
+            "type": "Strategy",
+            "description": "Dawn of War is a military real-time strategy game developed by Relic Entertainment",
+            "picture": "https://www.delfi.rs/_img/artikli/video_igre/40134/vv/delfi_pc_warhammer_40000_dawn_of_war_game_of_the_year_edition_thq.jpg",
+            "price": 3.99,
+            "categorieID": 5
+        }
+        
+    ]
+}

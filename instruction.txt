@@ -1,0 +1,27 @@
+Instalacija visual code:
+    Skinuti software i instalirati ga
+    https://code.visualstudio.com/download
+
+Instalacija node server:
+    Skinuti software i instalirati ga
+    https://nodejs.org/en/download/
+
+Instalacija za live server:
+    U trenutnom direktorijumu iz terminala pomocu komande: 
+    npm install -g live-server
+
+Instalacija za json server:
+    U trenutnom direktorijumu iz terminala pomocu komande: 
+    npm install -g json-server
+
+Tutorijal za instaliranje:
+    https://www.youtube.com/watch?v=PzhQriaGRgs&t=2s
+
+Pokretanje live servera:
+    U trenutnom direktorijumu iz terminala pomocu komande: 
+    live-server
+
+Pokretanje json servera:
+    U trenutnom direktorijumu iz terminala pomocu komande:
+    json-server --watch db.json
+
