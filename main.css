@@ -175,7 +175,9 @@ position: relative;
         justify-content: center;
         align-items: center;
     }
-   
+   .footer-sign {
+       display: none;
+   }
 }
 @media (max-width: 600px) {
     .header-border {
