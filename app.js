@@ -21,8 +21,8 @@ function fillCategoriesAndProducts() {
             for(let i = 0; i < products.length;i++) {
 
                 contProducts.innerHTML += `
-                    <div class="card" style="width: 200px;">
-                        <img src="${products[i].picture}" class="card-img-top" alt="..." style="width: 200px;height: 300px;">
+                    <div class="myBlock card" style="width: 200px;">
+                        <img src="${products[i].picture}" class="card-img-top" alt="..." style="width: 100%;height: 300px;">
                         <div class="card-body">
                             <p class="name">${products[i].name}</p>
                             <p class="type">${products[i].type}</p>

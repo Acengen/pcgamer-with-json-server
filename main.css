@@ -140,6 +140,10 @@ position: relative;
     .header-btn{
         font-size: 4px;
     }
+    .fa-gamepad {
+        font-size: 15px;
+    }
+   
 }
 @media (max-width: 480px) {
     .header-border {
@@ -148,7 +152,30 @@ position: relative;
     .header-fontlarge  {
         font-size: 10px;
     }
-
+    
+    .fa-gamepad {
+        font-size: 20px;
+    }
+    .sec-cont-navbar {
+        display: none;
+    }
+    .t-cont-navbar a {
+        font-size: 9px;
+        padding: 5px 15px;
+    }
+    .fa-shopping-cart {
+        display: none; 
+    }
+    .header-img-cont {
+        display: none;
+    }
+    .games-list-buttons {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
 }
 @media (max-width: 600px) {
     .header-border {
@@ -157,7 +184,10 @@ position: relative;
     .header-fontlarge  {
         font-size: 12px;
     }
-
+    .sec-cont-navbar a {
+        font-size: 11px;
+        
+    }
 }
 @media (max-width: 768px) {
     .header-fontlarge{
@@ -184,31 +214,9 @@ position: relative;
     }
 
 }
-@media (width: 1024px) {
-    .header-fontlarge{
-        font-size: 35px;
-    }
-    .header-border {
-        font-size: 25px;
-        padding: 5px;
-    }
-    .header-img-cont {
-        top:15%;
-    }
-    .header-btn{
-        font-size: 15px;
-    }
 
-}
-@media (max-width: 1200px) {
-    .header-border {
-        font-size: 10px;
-    }
-    .header-fontlarge  {
-        font-size: 12px;
-    }
 
-}
+
 
 /* MAIN */
 .games-list {
