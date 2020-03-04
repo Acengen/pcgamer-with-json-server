@@ -7,6 +7,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <title>Computer center&copysr;</title>
 </head>
@@ -48,13 +49,13 @@
     <div class="games-list text-center">
         <span>Popular genres</span>
     </div>
-    <div class="games-list-buttons row align-items-center">
+    <div class="games-list-buttons row align-items-center" data-aos="fade-left">
         <!-- Ovde idu kategorije -->
     </div>
     <form class="myForm text-center my-3">
         <input type="text" name="search" placeholder="search for games" class="form-control text-center">
     </form>
-    <div class="main-products row align-items-center">
+    <div class="main-products row align-items-center" data-aos="fade-right">
         <!-- Ovde idu produkti -->
     </div>
     <div class="cont-footer row align-items-start">
@@ -87,9 +88,12 @@
         </div>
     </div>
 </div>
-
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="app.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
