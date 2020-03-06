@@ -169,11 +169,18 @@ position: relative;
     .header-img-cont {
         display: none;
     }
+    
     .games-list-buttons {
+        justify-content: space-evenly;
+        margin-top: 0px;
+        
+    }
+    .games-list-buttons > button {
         font-size: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin: 10px;
+    }
+    .footer-name {
+        margin-right: 30px;
     }
    .footer-sign {
        display: none;
