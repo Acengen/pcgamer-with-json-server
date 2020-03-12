@@ -161,7 +161,7 @@ function searchForProducts(name) {
 fillCategoriesAndProducts();
 
 
-myForm.addEventListener('submit', e=> {
+myForm.addEventListener('keyup', e=> {
     e.preventDefault();
     const input = myForm.search.value.toUpperCase();
     searchForProducts(input);
