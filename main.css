@@ -237,9 +237,9 @@ position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(240, 240, 240);
 }
 .games-list > span {
-    border-bottom: 3px solid grey;
     font-size: 20px;
 
 }
